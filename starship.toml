@@ -1,0 +1,16 @@
+#add_newline = false
+
+
+[directory]
+truncate_to_repo = true
+
+[gcloud]
+symbol = "☁️  "
+disabled = true
+
+[username]
+show_always = false
+style_user = "bold blue"
+
+[java]
+style = "red bold"
