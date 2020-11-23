@@ -7,6 +7,7 @@ window:
 font:
   normal:
     family: "Fira Code"
+  size: 10
 
 cursor:
   style: Beam
@@ -15,6 +16,10 @@ cursor:
 
 shell:
   program: /usr/bin/fish
+  args:
+    - "-l"
+    - "-c"
+    - "tmux attach || tmux"
 
 schemes:
   challenger_deep: &challenger_deep
