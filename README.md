@@ -4,3 +4,4 @@
 
 - [Alacritty](https://github.com/alacritty/alacritty) - [alacritty.yml](./alacritty.yml)
 - [Starship](https://starship.rs) - [starship.toml](./starship.toml)
+- [NeoVim](https://neovim.io) - [init.vim](./init.vim)
