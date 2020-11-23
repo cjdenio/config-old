@@ -16,10 +16,10 @@ cursor:
 
 shell:
   program: /usr/bin/fish
-  args:
-    - "-l"
-    - "-c"
-    - "tmux attach || tmux"
+  #args:
+  #  - "-l"
+  #  - "-c"
+  #  - "tmux attach || tmux"
 
 schemes:
   challenger_deep: &challenger_deep
