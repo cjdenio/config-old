@@ -12,7 +12,7 @@ font:
 cursor:
   style: Beam
 
-  #background_opacity: 0.7
+background_opacity: 0.7
 
 shell:
   program: /usr/bin/fish
