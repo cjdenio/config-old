@@ -8,6 +8,7 @@ Plug 'dracula/vim', {'as': 'dracula'}
 Plug 'tmsvg/pear-tree'
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
+Plug 'rust-lang/rust.vim'
 
 call plug#end()
 
