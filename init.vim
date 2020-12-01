@@ -12,6 +12,8 @@ Plug 'rust-lang/rust.vim'
 
 call plug#end()
 
+let g:pear_tree_repeatable_expand = 0
+
 color dracula
 set number
 
