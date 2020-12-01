@@ -27,3 +27,5 @@ set shiftwidth=2
 " set filetypes as typescript.tsx
 autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescript.tsx
 
+autocmd vimenter * NERDTree
+let NERDTreeMinimalUI = 1
