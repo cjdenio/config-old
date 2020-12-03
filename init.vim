@@ -11,6 +11,7 @@ Plug 'peitalin/vim-jsx-typescript'
 Plug 'rust-lang/rust.vim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'vim-airline/vim-airline'
+Plug 'airblade/vim-gitgutter'
 
 call plug#end()
 
