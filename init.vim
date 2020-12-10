@@ -45,6 +45,7 @@ let NERDTreeMinimalUI = 1
 
 " Better syntax highlighting for Golang
 let g:go_highlight_function_calls = 1
+autocmd FileType go setlocal noexpandtab
 
 " Snippets are separated from the engine. Add this if you want them:
 
