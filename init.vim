@@ -42,6 +42,9 @@ autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescriptreact
 autocmd vimenter * NERDTree
 let NERDTreeMinimalUI = 1
 
+" Better syntax highlighting for Golang
+let g:go_highlight_function_calls = 1
+
 " Snippets are separated from the engine. Add this if you want them:
 
 " Trigger configuration. You need to change this to something other than <tab> if you use one of the following:
