@@ -7,6 +7,7 @@ Plug 'tmsvg/pear-tree'
 Plug 'ryanoasis/vim-devicons'
 Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-fugitive'
 
 " Themes
 Plug 'dracula/vim', {'as': 'dracula'}
