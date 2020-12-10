@@ -1,21 +1,26 @@
 call plug#begin(stdpath('config') . '/plugged')
 
 Plug 'wakatime/vim-wakatime'
-Plug 'fatih/vim-go', {'do': ':GoUpdateBinaries'}
 Plug 'preservim/nerdtree'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'dracula/vim', {'as': 'dracula'}
 Plug 'tmsvg/pear-tree'
-Plug 'leafgarland/typescript-vim'
-" Plug 'peitalin/vim-jsx-typescript'
-Plug 'rust-lang/rust.vim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-gitgutter'
 
+" Themes
+Plug 'dracula/vim', {'as': 'dracula'}
+
 " utilisnips stuff
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
+
+" Languages
+Plug 'keith/swift.vim'
+Plug 'fatih/vim-go', {'do': ':GoUpdateBinaries'}
+Plug 'rust-lang/rust.vim'
+Plug 'leafgarland/typescript-vim'
+" Plug 'peitalin/vim-jsx-typescript'
 
 call plug#end()
 
