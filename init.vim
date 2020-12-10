@@ -7,7 +7,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'dracula/vim', {'as': 'dracula'}
 Plug 'tmsvg/pear-tree'
 Plug 'leafgarland/typescript-vim'
-Plug 'peitalin/vim-jsx-typescript'
+" Plug 'peitalin/vim-jsx-typescript'
 Plug 'rust-lang/rust.vim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'vim-airline/vim-airline'
@@ -31,8 +31,8 @@ set statusline^=%{coc#status()}
 set expandtab
 set shiftwidth=2
 
-" set filetypes as typescript.tsx
-autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescript.tsx
+" set filetypes as typescriptreact
+autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescriptreact
 
 autocmd vimenter * NERDTree
 let NERDTreeMinimalUI = 1
