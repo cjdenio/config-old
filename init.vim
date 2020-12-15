@@ -41,7 +41,10 @@ set shiftwidth=2
 " set filetypes as typescriptreact
 autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescriptreact
 
-autocmd vimenter * NERDTree
+" NERDTree stuff
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+
 let NERDTreeMinimalUI = 1
 
 " Better syntax highlighting for Golang
