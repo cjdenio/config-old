@@ -21,6 +21,7 @@ Plug 'keith/swift.vim'
 Plug 'fatih/vim-go', {'do': ':GoUpdateBinaries'}
 Plug 'rust-lang/rust.vim'
 Plug 'leafgarland/typescript-vim'
+Plug 'lervag/vimtex'
 " Plug 'peitalin/vim-jsx-typescript'
 
 call plug#end()
