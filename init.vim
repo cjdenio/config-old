@@ -22,6 +22,7 @@ Plug 'fatih/vim-go', {'do': ':GoUpdateBinaries'}
 Plug 'rust-lang/rust.vim'
 Plug 'leafgarland/typescript-vim'
 Plug 'lervag/vimtex'
+Plug 'dart-lang/dart-vim-plugin'
 " Plug 'peitalin/vim-jsx-typescript'
 
 call plug#end()
@@ -31,7 +32,7 @@ let g:pear_tree_repeatable_expand = 0
 color dracula
 set number
 
-command FRCDeploy !./gradlew deploy
+command! FRCDeploy !./gradlew deploy
 set statusline^=%{coc#status()}
 
 " use 2 spaces
