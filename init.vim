@@ -2,6 +2,7 @@ call plug#begin(stdpath('config') . '/plugged')
 
 Plug 'wakatime/vim-wakatime'
 Plug 'preservim/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tmsvg/pear-tree'
 Plug 'ryanoasis/vim-devicons'
