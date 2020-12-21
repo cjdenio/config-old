@@ -9,6 +9,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
+Plug 'sbdchd/neoformat'
 
 " Themes
 Plug 'dracula/vim', {'as': 'dracula'}
