@@ -13,6 +13,10 @@ Plug 'sbdchd/neoformat'
 
 " Themes
 Plug 'dracula/vim', {'as': 'dracula'}
+Plug 'ghifarit53/tokyonight-vim'
+
+let g:tokyonight_style = 'night' " available: night, storm
+let g:tokyonight_enable_italic = 1
 
 " utilisnips stuff
 Plug 'SirVer/ultisnips'
@@ -31,8 +35,8 @@ call plug#end()
 
 let g:pear_tree_repeatable_expand = 0
 
-color dracula
 set number
+color dracula 
 
 command! FRCDeploy !./gradlew deploy
 set statusline^=%{coc#status()}
