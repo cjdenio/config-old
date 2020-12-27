@@ -45,6 +45,9 @@ set statusline^=%{coc#status()}
 set expandtab
 set shiftwidth=2
 
+" except for go
+autocmd Filetype go setlocal shiftwidth&vim
+
 " set filetypes as typescriptreact
 autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescriptreact
 
