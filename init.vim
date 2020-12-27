@@ -10,6 +10,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
 Plug 'sbdchd/neoformat'
+Plug 'voldikss/vim-floaterm'
 
 " Themes
 Plug 'dracula/vim', {'as': 'dracula'}
