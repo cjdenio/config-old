@@ -81,3 +81,7 @@ name = "VersionControl"
 [[custom_plugins]]
 repo = "https://github.com/dracula/vim"
 merged = 0
+
+[[custom_plugins]]
+repo = "https://github.com/wakatime/vim-wakatime"
+merged = 0
