@@ -29,6 +29,7 @@
     vimcompatible = true
 
     filetree_direction = "left"
+    filemanager = "nerdtree"
 
     autocomplete_method = "coc"
 
