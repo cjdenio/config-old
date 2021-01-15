@@ -87,6 +87,6 @@ merged = 0
 repo = "https://github.com/wakatime/vim-wakatime"
 merged = 0
 
-[[custom_plugins]]
-repo = "https://github.com/ryanoasis/vim-devicons"
-merged = 0
+# [[custom_plugins]]
+# repo = "https://github.com/ryanoasis/vim-devicons"
+# merged = 0
