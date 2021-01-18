@@ -66,6 +66,9 @@ name = "lang#typescript"
 [[layers]]
 name = "lang#rust"
 
+[[layers]]
+name = "lang#java"
+
 ## OTHER LAYERS ##
 
 [[layers]]
