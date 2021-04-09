@@ -1,6 +1,6 @@
 # config
 
-**THIS REPO HAS BEEN REPLACED BY [cjdenio/config-macos](https://github.com/cjdenio/config-macos)**
+**🚨 THIS REPO HAS BEEN REPLACED BY [cjdenio/config-macos](https://github.com/cjdenio/config-macos) 🚨**
 
 (i don't use vim anymore but you can still check out my config!)
 
